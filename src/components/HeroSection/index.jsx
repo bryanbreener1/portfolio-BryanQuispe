@@ -1,7 +1,7 @@
 import React, { useContext } from 'react'
 import styled from 'styled-components'
 import Typewriter from 'typewriter-effect';
-import ProfileImg from '../../images/ProfileImg.png'
+import ProfileImg from '/images/ProfileImg.png'
 import { languageContext} from '../../utils/LanguageProvider';
 
 
