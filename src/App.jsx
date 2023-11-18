@@ -5,7 +5,7 @@ import NavBar from './components/NavBar'
 import Hero from './components/HeroSection'
 import Skills from './components/Skills'
 import Education from './components/Education'
-import { BrowserRouter as Router } from 'react-router-dom'
+import { BrowserRouter } from 'react-router-dom'
 import Experience from './components/Experience'
 import Projects from './components/Projects'
 import Contact from './components/Contact'
@@ -21,7 +21,7 @@ function App() {
   return (
     <ThemeProvider theme={actualTheme} >
       <LanguageProv>
-      <Router>
+      <BrowserRouter>
         <NavBar setMainTheme={setMainTheme} mainTheme={mainTheme}/>
         <Body>
           <Hero/>
@@ -37,7 +37,7 @@ function App() {
           <WppButton href='https://wa.me/+51954125627' target='blank'><BsWhatsapp/></WppButton>
           <Footer/>
         </Body>
-      </Router>
+      </BrowserRouter>
       </LanguageProv>
     </ThemeProvider>
   )

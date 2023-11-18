@@ -12,7 +12,7 @@ export const english = {
       "Challenges, effective communication and teamwork are the pillars of who I am as a person and as a professional. I am ready to create solutions and learn new things on my way to becoming not only a good programmer, but also a trouble shooter",
     github: "https://github.com/bryanbreener1",
     resume:
-      "https://docs.google.com/document/d/1jA-Ist3OM8Ip1TG442qozFlLRVx5zI2O8ZTVe8TnkMo/edit?usp=sharing",
+      "https://drive.google.com/file/d/1D9EDAw0JP2TBBEUPBuaukFqvOPhzmi0Y/view?usp=sharing",
     linkedin: "https://www.linkedin.com/in/bryan-breener-quispe-valeriano-bb055b141",
   },
   skillList:[
@@ -429,7 +429,7 @@ export const spanish = {
       "Desafíos, comunicación acertiva y trabajo en equipo son los pilares de quien soy como persona y como profesional. Estoy listo para crear soluciones y aprender nuevas cosas en mi camino para ser un buen programador y un solucionador de problemas.",
     github: "https://github.com/bryanbreener1",
     resume:
-      "https://docs.google.com/document/d/1ELRj2Zkw1fWFkN0xQ69mpj7QMwBa56aDuxyKd8ptK_I/edit?usp=sharing",
+      "https://drive.google.com/file/d/18gepnq-IPYl77VXACAgIHjs0FqWZ528h/view?usp=sharing",
     linkedin: "https://www.linkedin.com/in/bryan-breener-quispe-valeriano-bb055b141",
   },
   skillList:[
