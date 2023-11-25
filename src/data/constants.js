@@ -9,10 +9,10 @@ export const english = {
       "Full Stack Developer",
     ],
     description:
-      "Challenges, effective communication and teamwork are the pillars of who I am as a person and as a professional. I am ready to create solutions and learn new things on my way to becoming not only a good programmer, but also a trouble shooter",
+      "Challenges, effective communication and teamwork are the pillars of who I am as a person and as a professional. I am ready to create solutions and learn new things on my way to becoming not only a good programmer, but also a problem solver.",
     github: "https://github.com/bryanbreener1",
     resume:
-      "https://drive.google.com/file/d/1D9EDAw0JP2TBBEUPBuaukFqvOPhzmi0Y/view?usp=sharing",
+      "https://drive.google.com/file/d/1an8v3Tnu4mx0vylDPuOUW7E3IwHKAMoy/view?usp=sharing",
     linkedin: "https://www.linkedin.com/in/bryan-breener-quispe-valeriano-bb055b141",
   },
   skillList:[
@@ -429,7 +429,7 @@ export const spanish = {
       "Desafíos, comunicación acertiva y trabajo en equipo son los pilares de quien soy como persona y como profesional. Estoy listo para crear soluciones y aprender nuevas cosas en mi camino para ser un buen programador y un solucionador de problemas.",
     github: "https://github.com/bryanbreener1",
     resume:
-      "https://drive.google.com/file/d/18gepnq-IPYl77VXACAgIHjs0FqWZ528h/view?usp=sharing",
+      "https://drive.google.com/file/d/1_SyFIBJGx7NBCT2cYS4Chjyd5uQ9antV/view?usp=sharing",
     linkedin: "https://www.linkedin.com/in/bryan-breener-quispe-valeriano-bb055b141",
   },
   skillList:[

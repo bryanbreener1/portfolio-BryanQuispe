@@ -1,7 +1,6 @@
 import React, { useContext } from 'react'
 import styled from 'styled-components'
 import Typewriter from 'typewriter-effect';
-import ProfileImg from '/images/ProfileImg.png'
 import { languageContext} from '../../utils/LanguageProvider';
 
 
@@ -32,9 +31,6 @@ const Hero = () => {
             <SubTitle>{language.Bio.description}</SubTitle>
             <ResumeButton href={language.Bio.resume} target='blank'>{language.Bio.resumeText}</ResumeButton>
           </HeroLeftContainer>
-          <HeroRightContainer>
-            <Img src={ProfileImg} alt="profile_image" />
-          </HeroRightContainer>
         </HeroInnerContainer>
       </HeroContainer>
     </div>
@@ -96,6 +92,7 @@ export const HeroInnerContainer = styled.div`
 export const HeroLeftContainer = styled.div`
   width: 100%;
   order: 1;
+  text-align: center;
   @media (max-width: 960px) {
     order: 2;
     margin-bottom: 30px;
@@ -113,23 +110,6 @@ export const HeroLeftContainer = styled.div`
   }
 `;
 
-export const HeroRightContainer = styled.div`
-  width: 100%;
-  display: flex;
-  order: 2;
-  justify-content: end;
-  gap: 12px;
-  @media (max-width: 960px) {
-    order: 1;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 80px;
-  }
-
-  @media (max-width: 640px) {
-    margin-bottom: 30px;
-  }
-`;
 
 export const Img = styled.img`
   //background-color: ${({theme})=>theme.text_primary};
@@ -175,6 +155,8 @@ export const TextLoop = styled.div`
   gap: 12px;
   color: ${({ theme }) => theme.text_primary};
   line-height: 68px;
+  justify-content: center;
+
   @media (max-width: 960px) {
     text-align: center;
   }
