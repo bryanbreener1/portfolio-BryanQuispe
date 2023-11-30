@@ -12,7 +12,7 @@ export const english = {
       "Challenges, effective communication and teamwork are the pillars of who I am as a person and as a professional. I am ready to create solutions and learn new things on my way to becoming not only a good programmer, but also a problem solver.",
     github: "https://github.com/bryanbreener1",
     resume:
-      "https://drive.google.com/file/d/1an8v3Tnu4mx0vylDPuOUW7E3IwHKAMoy/view?usp=sharing",
+      "https://drive.google.com/file/d/1wCbux2WRGbrAS7CxB9B3s9ldAduEecnL/view?usp=sharing",
     linkedin: "https://www.linkedin.com/in/bryan-breener-quispe-valeriano-bb055b141",
   },
   skillList:[
@@ -42,8 +42,12 @@ export const english = {
           name: "JavaScript",
           image:
             "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png",
-        }
-  
+        },
+        {
+          name: "TailwindCss",
+          image:
+            "https://images.crunchbase.com/image/upload/c_lpad,h_256,w_256,f_auto,q_auto:eco,dpr_1/y9jbquchakdius6cs8ws",
+        },
       ]
     },
     {
@@ -216,100 +220,9 @@ export const english = {
     title: "Experience",
     desc: "Here are some of my work experiences"
   },
+
   projectsList:[
     {
-      id: 0,
-      title: "Rick and Morty",
-      date: "Jun 2023",
-      description:
-        "This website uses the Rick and Morty API, it has a browser to find all the characters that appear in the given ID location. The first time takes a random ID",
-      image:
-        "./images/riky.png",
-      tags: [
-        "React Js",
-        "Axios",
-        "Git",
-        "Hooks",
-      ],
-      category: "front-end",
-      github: "https://github.com/bryanbreener1/rickmorty",
-      webapp: "https://rick-and-morty-2023bbqv.netlify.app/",
-    },
-    {
-      id: 1,
-      title: "Pokedex",
-      date: "Jul 2023",
-      description:
-        "This website uses the PokeAPI, it has a protected route, a browser to find Pokemons by category or name, and it also uses redux to store the trainer's name, which is used to 'log in' to the app.",
-      image:
-        "/images/pokedex.png",
-      tags: ["React Js", "axios","redux", "css", "git", "netlify"],
-      category: "front-end",
-      github: "https://github.com/bryanbreener1/pokedex",
-      webapp: "https://superb-otter-447073.netlify.app/",
-    },
-    {
-      id: 2,
-      title: "Ecommerce-clothes",
-      date: "March 2023",
-      description:
-        "The main objective of this website is to represent the behavior of a shopping cart, you can add products, increase or reduce the number of products, it also checks if the product is in stock, if not the product will have a sold out label.",
-      image:
-        "/images/ecommerce-clothes.png",
-      tags: [
-        "Javascript",
-        "Html",
-        "Css",
-        "Netlify",
-        "Git",
-        "Fetch",
-        "LocalStorage",
-      ],
-      category: "front-end",
-      github: "https://github.com/bryanbreener1/ecomerse-bryan/tree/main",
-      webapp: "https://eloquent-faun-8301e8.netlify.app",
-    },
-    {
-      id: 3,
-      title: "Ecommerce",
-      date: "Aug 2023",
-      description:
-        "This website has all the functionalities of a real e-commerce, you can filter products by categories, prices and search for name matches, it allows you to add products to a shopping cart, vary the quantities of different components and make a purchase, it also has protected routes so that only logged in users can see the contents of the car and purchases.",
-      image:
-        "/images/ecommerce.png",
-      tags: [
-        "ReacJs",
-        "Redux",
-        "Css",
-        "Netlify",
-        "Git",
-        "Axios",
-        "JWT",
-        "API"
-      ],
-      category: "front-end",
-      github: "https://github.com/bryanbreener1/ecommerce-electronicDevices",
-      webapp: "https://helpful-mermaid-64a930.netlify.app/",
-    },
-    {
-      id: 4,
-      title: "Landing Page - Riverside",
-      date: "Jul 2023",
-      description:
-        "Performance metrics (FCP, LCP, Speed Index), SEO and accessibility were below acceptable levels, since the home page was where leads arrived when they saw the company's advertising campaigns, a load time of around 5 seconds would reduce conversions, it was proposed to create a landing page equal to the home page but made in code, since the home page and the website in general was made with WordPress and the number of plugins they used was what slowed down load times. In addition to developing the landing page, the images were optimized and as a result, all of the above metrics improved significantly and the site load time went from 5 seconds to less than 1 second.",
-      image:
-        "/images/riverside.png",
-      tags: [
-        "Javascript",
-        "Html",
-        "Css"
-      ],
-      category: "front-end",
-      github: "https://github.com/bryanbreener1/landingPage-riverside",
-      webapp: "https://www.riversideecoliving.com/riverside/",
-    },
-    {
-      id: 5,
       title: "Airport",
       date: "Oct 2023",
       description:
@@ -335,7 +248,6 @@ export const english = {
       webapp: "https://documenter.getpostman.com/view/28640101/2s9YXo1zfz#af0adffa-dcd0-4ecd-aa42-f1779c33f2c5",
     },
     {
-      id: 6,
       title: "Meals",
       date: "Sep 2023",
       description:
@@ -358,8 +270,100 @@ export const english = {
       category: "back-end",
       github: "https://github.com/bryanbreener1/meals_backend",
       webapp: "https://documenter.getpostman.com/view/28640101/2s9YXpUJKL",
+    },
+    {
+      title: "Ecommerce",
+      date: "Aug 2023",
+      description:
+        "This website has all the functionalities of a real e-commerce, you can filter products by categories, prices and search for name matches, it allows you to add products to a shopping cart, vary the quantities of different components and make a purchase, it also has protected routes so that only logged in users can see the contents of the car and purchases.",
+      image:
+        "/images/ecommerce.png",
+      tags: [
+        "ReacJs",
+        "Redux",
+        "Css",
+        "Netlify",
+        "Git",
+        "Axios",
+        "JWT",
+        "API"
+      ],
+      category: "front-end",
+      github: "https://github.com/bryanbreener1/ecommerce-electronicDevices",
+      webapp: "https://helpful-mermaid-64a930.netlify.app/",
+    },
+    {
+      title: "Pokedex",
+      date: "Jul 2023",
+      description:
+        "This website uses the PokeAPI, it has a protected route, a browser to find Pokemons by category or name, and it also uses redux to store the trainer's name, which is used to 'log in' to the app.",
+      image:
+        "/images/pokedex.png",
+      tags: ["React Js", "axios","redux", "css", "git", "netlify"],
+      category: "front-end",
+      github: "https://github.com/bryanbreener1/pokedex",
+      webapp: "https://superb-otter-447073.netlify.app/",
+    },
+    {
+      title: "Landing Page - Riverside",
+      date: "Jul 2023",
+      description:
+        "Performance metrics (FCP, LCP, Speed Index), SEO and accessibility were below acceptable levels, since the home page was where leads arrived when they saw the company's advertising campaigns, a load time of around 5 seconds would reduce conversions, it was proposed to create a landing page equal to the home page but made in code, since the home page and the website in general was made with WordPress and the number of plugins they used was what slowed down load times. In addition to developing the landing page, the images were optimized and as a result, all of the above metrics improved significantly and the site load time went from 5 seconds to less than 1 second.",
+      image:
+        "/images/riverside.png",
+      tags: [
+        "Javascript",
+        "Html",
+        "Css"
+      ],
+      category: "front-end",
+      github: "https://github.com/bryanbreener1/landingPage-riverside",
+      webapp: "https://www.riversideecoliving.com/riverside/",
+    },
+    {
+      title: "Rick and Morty",
+      date: "Jun 2023",
+      description:
+        "This website uses the Rick and Morty API, it has a browser to find all the characters that appear in the given ID location. The first time takes a random ID",
+      image:
+        "./images/riky.png",
+      tags: [
+        "React Js",
+        "Axios",
+        "Git",
+        "Hooks",
+      ],
+      category: "front-end",
+      github: "https://github.com/bryanbreener1/rickmorty",
+      webapp: "https://rick-and-morty-2023bbqv.netlify.app/",
+    },
+
+    {
+      title: "Ecommerce-clothes",
+      date: "March 2023",
+      description:
+        "The main objective of this website is to represent the behavior of a shopping cart, you can add products, increase or reduce the number of products, it also checks if the product is in stock, if not the product will have a sold out label.",
+      image:
+        "/images/ecommerce-clothes.png",
+      tags: [
+        "Javascript",
+        "Html",
+        "Css",
+        "Netlify",
+        "Git",
+        "Fetch",
+        "LocalStorage",
+      ],
+      category: "front-end",
+      github: "https://github.com/bryanbreener1/ecomerse-bryan/tree/main",
+      webapp: "https://eloquent-faun-8301e8.netlify.app",
     }
+
+
+
+
   ],
+
   projectsText:{
     title: "Projects",
     desc: "Here are some of the projects I worked on last year",
@@ -429,7 +433,7 @@ export const spanish = {
       "Desafíos, comunicación acertiva y trabajo en equipo son los pilares de quien soy como persona y como profesional. Estoy listo para crear soluciones y aprender nuevas cosas en mi camino para ser un buen programador y un solucionador de problemas.",
     github: "https://github.com/bryanbreener1",
     resume:
-      "https://drive.google.com/file/d/1_SyFIBJGx7NBCT2cYS4Chjyd5uQ9antV/view?usp=sharing",
+      "https://drive.google.com/file/d/1R8ImZqAhDMCjxviZDshFy-5o8LiEwQRF/view?usp=sharing",
     linkedin: "https://www.linkedin.com/in/bryan-breener-quispe-valeriano-bb055b141",
   },
   skillList:[
@@ -459,7 +463,12 @@ export const spanish = {
           name: "JavaScript",
           image:
             "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png",
-        }
+        },
+        {
+          name: "TailwindCss",
+          image:
+            "https://images.crunchbase.com/image/upload/c_lpad,h_256,w_256,f_auto,q_auto:eco,dpr_1/y9jbquchakdius6cs8ws",
+        },
       ]
     },
     {
@@ -628,79 +637,6 @@ export const spanish = {
   },
   projectsList: [
     {
-      id: 0,
-      title: "Rick and Morty",
-      date: "Jun 2023",
-      description: "Este sitio web utiliza la API de Rick and Morty. Tiene un navegador para encontrar todos los personajes que aparecen en la ubicación proporcionada. La primera vez toma una ubicación aleatoria.",
-      image: "./images/riky.png",
-      tags: ["React Js", "Axios", "Git", "Hooks"],
-      category: "front-end",
-      github: "https://github.com/bryanbreener1/rickmorty",
-      webapp: "https://rick-and-morty-2023bbqv.netlify.app/",
-    },
-    {
-      id: 1,
-      title: "Pokedex",
-      date: "Jul 2023",
-      description: "Este sitio web utiliza la PokeAPI. Tiene una ruta protegida, un navegador para encontrar pokemons por categoría o nombre, y también utiliza Redux para almacenar el nombre del entrenador, que se utiliza para 'iniciar sesión'.",
-      image: "/images/pokedex.png",
-      tags: ["React Js", "axios", "redux", "css", "git", "netlify"],
-      category: "front-end",
-      github: "https://github.com/bryanbreener1/pokedex",
-      webapp: "https://superb-otter-447073.netlify.app/",
-    },
-    {
-      id: 2,
-      title: "Ecommerce-clothes",
-      date: "Mar 2023",
-      description: "El objetivo principal de este sitio web es representar el comportamiento de un carrito de compras. Puedes agregar productos, aumentar o reducir la cantidad de productos. También verifica si el producto está en stock; si no lo está, el producto tendrá una etiqueta de agotado.",
-      image: "/images/ecommerce-clothes.png",
-      tags: ["Javascript", "Html", "Css", "Netlify", "Git", "Fetch", "LocalStorage"],
-      category: "front-end",
-      github: "https://github.com/bryanbreener1/ecomerse-bryan/tree/main",
-      webapp: "https://eloquent-faun-8301e8.netlify.app",
-    },
-    {
-      id: 3,
-      title: "Ecommerce",
-      date: "Ago 2023",
-      description:
-        "Esta pagina web tiene todas las funcionalidades de un ecommerce real, se puede filtrar productos por categorias, precios y buscar coincidencias de nombres, permite agregar productos a un carrito de compras, variar las cantidades desde distintos componentes y hacer en compra, cuenta tambien con rutas protegidas para que solo los usuarios que esten logeados puedan ver el contenido de car y purchases.",
-      image:
-        "/images/ecommerce.png",
-      tags: [
-        "ReacJs",
-        "Redux",
-        "Css",
-        "Netlify",
-        "Git",
-        "Axios",
-        "JWT",
-        "API"
-      ],
-      category: "front-end",
-      github: "https://github.com/bryanbreener1/ecommerce-electronicDevices",
-      webapp: "https://helpful-mermaid-64a930.netlify.app/",
-    },
-    {
-      id: 4,
-      title: "Landing Page - Riverside",
-      date: "Jul 2023",
-      description:
-        "Las métricas de rendimiento del home de la pagina web de Riverside (FCP, LCP, Speed index), SEO y accessibility estaban por debajo de lo aceptable, ya que el home era donde los leads llegaban al ver camapañas publicitarias de la empresa, un tiempo de carga al rededor de lo 5 segundos reduciria las conversiones, se propuso hacer una landing page igual al home pero hecho con codigo, ya que el home y la pagina web en general estaba hecho con wordpress y la cantidad de plugins que utilizaban era lo que relentizaba los tiempos de carga. Ademas de desarrollar la landing page se optimizaron las imagenes, como resultado todas las metricas mencionadas mejoraron notoriamente y el tiempo de carga de la web paso de 5 segundos a menos de 1 segundo",
-      image:
-        "/images/riverside.png",
-      tags: [
-        "Javascript",
-        "Html",
-        "Css"
-      ],
-      category: "front-end",
-      github: "https://github.com/bryanbreener1/landingPage-riverside",
-      webapp: "https://www.riversideecoliving.com/riverside/",
-    },
-    {
-      id: 5,
       title: "Airport",
       date: "Oct 2023",
       description:
@@ -726,7 +662,6 @@ export const spanish = {
       webapp: "https://documenter.getpostman.com/view/28640101/2s9YXo1zfz#af0adffa-dcd0-4ecd-aa42-f1779c33f2c5",
     },
     {
-      id: 6,
       title: "Meals",
       date: "Sep 2023",
       description:
@@ -749,7 +684,78 @@ export const spanish = {
       category: "back-end",
       github: "https://github.com/bryanbreener1/meals_backend",
       webapp: "https://documenter.getpostman.com/view/28640101/2s9YXpUJKL",
+    },
+    {
+      title: "Ecommerce",
+      date: "Ago 2023",
+      description:
+        "Esta pagina web tiene todas las funcionalidades de un ecommerce real, se puede filtrar productos por categorias, precios y buscar coincidencias de nombres, permite agregar productos a un carrito de compras, variar las cantidades desde distintos componentes y hacer en compra, cuenta tambien con rutas protegidas para que solo los usuarios que esten logeados puedan ver el contenido de car y purchases.",
+      image:
+        "/images/ecommerce.png",
+      tags: [
+        "ReacJs",
+        "Redux",
+        "Css",
+        "Netlify",
+        "Git",
+        "Axios",
+        "JWT",
+        "API"
+      ],
+      category: "front-end",
+      github: "https://github.com/bryanbreener1/ecommerce-electronicDevices",
+      webapp: "https://helpful-mermaid-64a930.netlify.app/",
+    },
+    {
+      title: "Pokedex",
+      date: "Jul 2023",
+      description: "Este sitio web utiliza la PokeAPI. Tiene una ruta protegida, un navegador para encontrar pokemons por categoría o nombre, y también utiliza Redux para almacenar el nombre del entrenador, que se utiliza para 'iniciar sesión'.",
+      image: "/images/pokedex.png",
+      tags: ["React Js", "axios", "redux", "css", "git", "netlify"],
+      category: "front-end",
+      github: "https://github.com/bryanbreener1/pokedex",
+      webapp: "https://superb-otter-447073.netlify.app/",
+    },
+    {
+      title: "Landing Page - Riverside",
+      date: "Jul 2023",
+      description:
+        "Las métricas de rendimiento del home de la pagina web de Riverside (FCP, LCP, Speed index), SEO y accessibility estaban por debajo de lo aceptable, ya que el home era donde los leads llegaban al ver camapañas publicitarias de la empresa, un tiempo de carga al rededor de lo 5 segundos reduciria las conversiones, se propuso hacer una landing page igual al home pero hecho con codigo, ya que el home y la pagina web en general estaba hecho con wordpress y la cantidad de plugins que utilizaban era lo que relentizaba los tiempos de carga. Ademas de desarrollar la landing page se optimizaron las imagenes, como resultado todas las metricas mencionadas mejoraron notoriamente y el tiempo de carga de la web paso de 5 segundos a menos de 1 segundo",
+      image:
+        "/images/riverside.png",
+      tags: [
+        "Javascript",
+        "Html",
+        "Css"
+      ],
+      category: "front-end",
+      github: "https://github.com/bryanbreener1/landingPage-riverside",
+      webapp: "https://www.riversideecoliving.com/riverside/",
+    },
+    {
+      title: "Rick and Morty",
+      date: "Jun 2023",
+      description: "Este sitio web utiliza la API de Rick and Morty. Tiene un navegador para encontrar todos los personajes que aparecen en la ubicación proporcionada. La primera vez toma una ubicación aleatoria.",
+      image: "./images/riky.png",
+      tags: ["React Js", "Axios", "Git", "Hooks"],
+      category: "front-end",
+      github: "https://github.com/bryanbreener1/rickmorty",
+      webapp: "https://rick-and-morty-2023bbqv.netlify.app/",
+    },
+
+    {
+      title: "Ecommerce-clothes",
+      date: "Mar 2023",
+      description: "El objetivo principal de este sitio web es representar el comportamiento de un carrito de compras. Puedes agregar productos, aumentar o reducir la cantidad de productos. También verifica si el producto está en stock; si no lo está, el producto tendrá una etiqueta de agotado.",
+      image: "/images/ecommerce-clothes.png",
+      tags: ["Javascript", "Html", "Css", "Netlify", "Git", "Fetch", "LocalStorage"],
+      category: "front-end",
+      github: "https://github.com/bryanbreener1/ecomerse-bryan/tree/main",
+      webapp: "https://eloquent-faun-8301e8.netlify.app",
     }
+
+
+
   ],
   projectsText: {
     title: "Proyectos",
